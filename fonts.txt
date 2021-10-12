@@ -1,0 +1,4 @@
+font-family: nunito;
+font-family: montserrat;
+font-family: montserrat_bold;
+pink color: #e65f78
