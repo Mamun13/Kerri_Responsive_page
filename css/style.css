@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+    outline: 0px;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: nunito;
+    src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+@font-face{
+    font-family: montserrat;
+    src: url(../fonts/Montserrat/Montserrat-ExtraLight.ttf);
+}
+@font-face{
+    font-family: montserrat_bold;
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}   
+/* header part starts */
+
+ #navigation{
+    background-color: brown;
+}
+ #navigation .container{
+    background: red;
+    
+}
+
+/*
+header #navigation nav .navbar-nav .nav-item .nav-link{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all linear 0.3s;
+    padding: 0px 15px;
+    line-height: 70px;
+} */
+
+/* header part ends */
+
+/* banner part starts */
+#banner{
+    background: url(../images/header-bg.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner_banner{
+    background:rgba(000, 000, 000, 0.7)
+}
+h6{
+    color: white;
+    font-size: 1.5rem;
+    font-family: montserrat_bold;
+    padding-top: 70px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+h2{
+    color: white;
+    font-size: 54px;
+    font-family: montserrat_bold;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 17px;
+    font-family: montserrat;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    margin-bottom: 255px;
+}
+a{
+    color: white;
+    font-size: 13px;
+    font-family: nunito;
+    text-transform:uppercase;
+    padding: 15px 32px; 
+    font-weight: 500;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    position: relative;
+}
+
+  a {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+a:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+/* banner part ends */
+
+/* about part starts */
+
+/* about part ends */
