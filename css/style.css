@@ -24,10 +24,13 @@ a{
     font-family: montserrat_bold;
     src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
 }
-/* h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+ h1,h2,h3,h4,h5,h6,p,ol,ul,li{
     margin-top: 0;
     margin-bottom: 0;
-} */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
@@ -117,10 +120,9 @@ h2{
 /* banner part ends */
 
 /* about part starts */
-img{
+#about .container img{
     margin-top: 100px;
     margin-bottom: 100px;
-
 }
 #about .container h4{
     text-transform: capitalize;
@@ -149,16 +151,67 @@ img{
     font-size: 16px;
     font-family: nunito;
     padding-left: 30px;
-
+    padding-bottom: 25px;
 }
-svg.svg-inline--fa.fa-globe.fa-w-16 {
+#about .container a .mn1{
+    color: black;
+    margin-left: 30px;
+    margin-right: 5px;
+    border: 2px solid #6c757d;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all linear 0.3s;
+}
+#about .container a .mn1:hover{
+    border-color:#e65f78;
+}
+#about .container a .mn2{
+    color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 2px solid #6c757d;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all linear 0.3s;
+}
+#about .container a .mn2:hover{
+    border-color:#e65f78;
+}
+#about .container a .mn3{
+    color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 2px solid #6c757d;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all linear 0.3s;
+}
+#about .container a .mn3:hover{
+    border-color:#e65f78;
+}
+#about .container a .mn4{
+    color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 2px solid #6c757d;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all linear 0.3s;
+}
+#about .container a .mn4:hover{
+    border-color:#e65f78;
+}
+/* svg.svg-inline--fa.fa-globe.fa-w-16 {
     margin-left: 30px;
     border: 2px solid #6c757d;
     font-size: 36px;
     padding: 8px;
     border-radius: 50%;
     color: black;
-    margin-top: 10px;
 }
 svg.svg-inline--fa.fa-globe.fa-w-16:hover{
     border-color: #e65f78;
@@ -170,7 +223,7 @@ svg.svg-inline--fa.fa-globe.fa-w-16:hover{
     padding: 8px;
     border-radius: 50%;
     color: black;
-    margin-top: 10px;
+    margin-top: 28px;
 }
 .svg-inline--fa.fa-w-16:hover{
     border-color: #e65f78;
@@ -182,7 +235,7 @@ svg.svg-inline--fa.fa-globe.fa-w-16:hover{
     padding: 8px;
     border-radius: 50%;
     color: black;
-    margin-top: 10px;
+    margin-top: 28px;
 }
 .svg-inline--fa.fa-w-14:hover{
     border-color: #e65f78;
@@ -192,3 +245,62 @@ svg:not(:root).svg-inline--fa {
     margin: 2px;
 }
 /* about part ends */
+
+/* serices part starts */
+#services{
+    background: #f9f9f9;
+}
+ .border-serve{
+    margin-bottom: 30px;
+} 
+.border4{
+    border: 1px solid #6c757d;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.border2{
+    border: 1px solid #6c757d;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.border3{
+    border: 1px solid #6c757d;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+#services .container h4{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-family: montserrat_bold;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+}
+#services .container h4:after{
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    left: 150px;
+    width: 50px;
+    height: 2px;
+    background-color: #e65f78;
+
+}
+#services .container p{
+    padding-bottom: 30px;
+    font-family: nunito;
+    font-size: 16px;
+    color: #6c757d;
+    font-size: 16px;
+}
+#services .container a {
+    font-size: 50px;
+    color:#e65f78;
+    padding-top: 30px;
+} 
+
+#services .container a i{}
+#services .container a i{}
+/* serices part ends */
