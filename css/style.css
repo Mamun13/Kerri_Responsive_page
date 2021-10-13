@@ -250,6 +250,18 @@ svg:not(:root).svg-inline--fa {
 #services{
     background: #f9f9f9;
 }
+#services .container .service{
+    padding-top: 80px;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-family: montserrat_bold;
+    padding-bottom: 20px;
+}
+#services .container .text_p{
+    font-size: 16px;
+    font-family: nunito;
+    padding-bottom: 70px;
+}
  .border-serve{
     margin-bottom: 30px;
 } 
@@ -301,6 +313,23 @@ svg:not(:root).svg-inline--fa {
     padding-top: 30px;
 } 
 
-#services .container a i{}
-#services .container a i{}
 /* serices part ends */
+
+/* hire me  part starts */
+#hire_me .container h3{
+    text-transform: capitalize;
+    font-size: 32px;
+    color: black;
+    font-family: montserrat_bold;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#hire_me .container a{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #e65f78;
+    margin-bottom: 70px;
+}
+/* hire me  part ends */
