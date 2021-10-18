@@ -536,3 +536,22 @@ header #navigation nav .navbar-nav .nav-item .nav-link{
     padding-bottom: 30px;
 } */
 /* blog part ends */
+
+/* form part start */
+.form-control{
+    line-height: 2.5;
+}
+.text-uppercase{
+    background: #E65F78;
+    font-weight: 600;
+    color:#fff;
+    font-family: montserrat_bold;
+    padding: 15px 32px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+.text-uppercase:hover{
+    color: #fff;
+}
+/* form part ends */
