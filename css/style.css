@@ -517,4 +517,22 @@ header #navigation nav .navbar-nav .nav-item .nav-link{
     font-family: nunito;
     padding-bottom: 60px;
 }
+#contact .container a{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #e65f78;
+}
+#contact .container h4{
+    font-size: 20px;
+    font-family: montserrat_bold;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+/* #contact .container .text{
+    font-size: 16px;
+    color: #6c757d;
+    font-family: nunito;
+    padding-bottom: 30px;
+} */
 /* blog part ends */
