@@ -529,17 +529,12 @@ header #navigation nav .navbar-nav .nav-item .nav-link{
     text-transform: capitalize;
     padding-bottom: 5px;
 }
-/* #contact .container .text{
-    font-size: 16px;
-    color: #6c757d;
-    font-family: nunito;
-    padding-bottom: 30px;
-} */
 /* blog part ends */
 
 /* form part start */
 .form-control{
     line-height: 2.5;
+    margin-bottom: 10px;
 }
 .text-uppercase{
     background: #E65F78;
@@ -555,3 +550,30 @@ header #navigation nav .navbar-nav .nav-item .nav-link{
     color: #fff;
 }
 /* form part ends */
+
+/* footer part start */
+#footer{
+    background: #212121;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #ababab;
+}
+#footer a{
+    font-size: 20px;
+    background: #313131;
+    border-radius: 50%;
+    padding: 10px 20px;
+    color: #ABABAB;
+    transition: all linear 0.3s;
+}
+#footer a:hover{
+    color: #E65F78;
+}
+#footer p{
+    font-size: 16px;
+    color: #ababab;
+    font-family: nunito;
+    padding-top: 20px;
+}
+
+/* footer part ends */
