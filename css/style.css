@@ -36,27 +36,43 @@ body {
     overflow-x: hidden;
 }   
 /* header part starts */
-
- #navigation{
-    background-color: brown;
+header #navigation{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
- #navigation .container{
-    background: red;
+header #navigation{
     
 }
-
-/*
-header #navigation nav .navbar-nav .nav-item .nav-link{
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 13px;
+header #navigation .container nav{
+    line-height: 50px;
+}
+header #navigation .container nav a img{
+    height: 27px;
+}
+header #navigation .container nav .ml-auto{
+    margin-left: auto;
+}
+header #navigation .container nav .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 15px;
+    font-family: nunito;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-right: 20px;
     transition: all linear 0.3s;
-    padding: 0px 15px;
-    line-height: 70px;
-} */
-
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+} 
+header #navigation .container nav .navbar-nav .nav-item .nav-link.active{
+    color: #e65f78;
+}
+header #navigation .container nav .navbar-nav .nav-item .nav-link:hover{
+    color: #e65f78;
+}
 /* header part ends */
 
 /* banner part starts */
@@ -101,7 +117,7 @@ header #navigation nav .navbar-nav .nav-item .nav-link{
     font-weight: 500;
     border: 2px solid #fff;
     border-radius: 30px;
-    position: relative;
+    position: fixed;
     transition: all linear 0.3s;
 }
 #banner .banner_banner .container .button {
