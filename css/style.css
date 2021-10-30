@@ -99,14 +99,35 @@ header #navigation .container nav .navbar-nav .nav-item .nav-link:hover{
     font-weight: 800;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;;
 }
+.ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4em;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
 #banner .banner_banner .container p{
     color: white;
     font-size: 17px;
     font-family: montserrat;
     font-weight: 400;
     padding-bottom: 1rem;
-    margin-bottom: 255px;
+    margin-bottom: 270px;
 }
 #banner .banner_banner .container .button{
     color: white;
@@ -132,6 +153,7 @@ header #navigation .container nav .navbar-nav .nav-item .nav-link:hover{
     background: white;
     color: black;
     font-weight: 600;
+    position: fixed;
 }
 /* banner part ends */
 
